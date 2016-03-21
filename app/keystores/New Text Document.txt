@@ -1,0 +1,7 @@
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 77:1F:5F:B0:6B:D1:E5:C8:20:26:7B:7C:EC:75:3F:1D
+SHA1: E3:FA:D4:C5:96:E6:94:3E:40:25:CB:28:C3:96:E2:E3:98:61:CF:ED
+Valid until: Sunday, 11 February 2046
