@@ -1,6 +1,5 @@
 package com.udacity.firebase.shoppinglistplusplus.ui.activeListDetails;
 
-
 import android.app.Dialog;
 import android.os.Bundle;
 
@@ -21,7 +20,7 @@ import java.util.Map;
 public class AddListItemDialogFragment extends EditListDialogFragment {
 
     /**
-     * Public static constructor that cr-eates fragment and passes a bundle with data into it when adapter is created
+     * Public static constructor that creates fragment and passes a bundle with data into it when adapter is created
      */
     public static AddListItemDialogFragment newInstance(ShoppingList shoppingList, String listId,
                                                         String encodedEmail) {

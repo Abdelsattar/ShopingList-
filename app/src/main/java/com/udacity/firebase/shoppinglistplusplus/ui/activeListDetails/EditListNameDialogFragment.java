@@ -1,6 +1,5 @@
 package com.udacity.firebase.shoppinglistplusplus.ui.activeListDetails;
 
-
 import android.app.Dialog;
 import android.os.Bundle;
 
@@ -62,7 +61,7 @@ public class EditListNameDialogFragment extends EditListDialogFragment {
      */
     protected void doListEdit() {
         final String inputListName = mEditTextForList.getText().toString();
-
+        
         /**
          * Set input text to be the current list name if it is not empty
          */
@@ -96,3 +95,4 @@ public class EditListNameDialogFragment extends EditListDialogFragment {
 
     }
 }
+

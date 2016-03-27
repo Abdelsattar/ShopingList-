@@ -17,12 +17,6 @@ public final class Constants {
 
 
     /**
-    * Constants for Firebase login
-     */
-    public static final String PASSWORD_PROVIDER = "password";
-    public static final String GOOGLE_PROVIDER = "google";
-    public static final String PROVIDER_DATA_DISPLAY_NAME = "displayName";
-    /**
      * Constants for Firebase object properties
      */
     public static final String FIREBASE_PROPERTY_BOUGHT = "bought";
@@ -34,6 +28,7 @@ public final class Constants {
     public static final String FIREBASE_PROPERTY_EMAIL = "email";
     public static final String FIREBASE_PROPERTY_USERS_SHOPPING = "usersShopping";
     public static final String FIREBASE_PROPERTY_USER_HAS_LOGGED_IN_WITH_PASSWORD = "hasLoggedInWithPassword";
+
 
     /**
      * Constants for Firebase URL
@@ -57,6 +52,15 @@ public final class Constants {
     public static final String KEY_ENCODED_EMAIL = "ENCODED_EMAIL";
     public static final String KEY_LIST_OWNER = "LIST_OWNER";
     public static final String KEY_GOOGLE_EMAIL = "GOOGLE_EMAIL";
+
+
+
+    /**
+     * Constants for Firebase login
+     */
+    public static final String PASSWORD_PROVIDER = "password";
+    public static final String GOOGLE_PROVIDER = "google";
+    public static final String PROVIDER_DATA_DISPLAY_NAME = "displayName";
 
 
 

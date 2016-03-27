@@ -298,7 +298,7 @@ public class LoginActivity extends BaseActivity {
             }
         }
     }
-
+    
     /**
      * Helper method that makes sure a user is created if the user
      * logs in with Firebase's email/password provider.

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 23
@@ -19,8 +20,6 @@ android {
         debug {
         }
     }
-
-    apply plugin: 'com.google.gms.google-services'
 
     /* This for anyone following along with the repo. Since you will have a different
      * root URL, this code loads up a value from your gradle.properties file.
@@ -54,6 +53,4 @@ dependencies {
     /* For Google Play Services */
     compile 'com.google.android.gms:play-services-safetynet:8.3.0'
     compile 'com.google.android.gms:play-services-auth:8.3.0'
-
-    compile 'com.google.android.gms:play-services:8.3.0'
 }

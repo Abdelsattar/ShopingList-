@@ -1,9 +1,5 @@
 package com.udacity.firebase.shoppinglistplusplus.ui.activeLists;
 
-import android.widget.EditText;
-
-
-
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
@@ -138,3 +134,4 @@ public class AddListDialogFragment extends DialogFragment {
 
     }
 }
+

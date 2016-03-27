@@ -1,8 +1,7 @@
 package com.udacity.firebase.shoppinglistplusplus.ui;
 
-import com.udacity.firebase.shoppinglistplusplus.ui.activeLists.ShoppingListsFragment;
-
 import android.app.DialogFragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -35,6 +34,7 @@ public class MainActivity extends BaseActivity {
     private Firebase mUserRef;
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private ValueEventListener mUserRefListener;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,7 +100,14 @@ public class MainActivity extends BaseActivity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
+        int id = item.getItemId();
+        /**
+         * Open SettingsActivity with sort options when Sort icon was clicked
+         */
+        if (id == R.id.action_sort) {
+            startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 

@@ -19,7 +19,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.udacity.firebase.shoppinglistplusplus.ui.MainActivity" />
-
         </activity>
 
         <activity
@@ -46,7 +45,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.login.LoginActivity" />
-
         </activity>
 
     </application>

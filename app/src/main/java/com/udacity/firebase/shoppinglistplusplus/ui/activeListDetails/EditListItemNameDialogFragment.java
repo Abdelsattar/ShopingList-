@@ -1,7 +1,5 @@
 package com.udacity.firebase.shoppinglistplusplus.ui.activeListDetails;
 
-import com.firebase.client.Firebase;
-
 import android.app.Dialog;
 import android.os.Bundle;
 

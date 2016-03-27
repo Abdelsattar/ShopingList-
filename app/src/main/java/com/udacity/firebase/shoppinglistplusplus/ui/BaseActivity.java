@@ -76,7 +76,7 @@ public abstract class BaseActivity extends AppCompatActivity implements
                         SharedPreferences.Editor spe = sp.edit();
                         spe.putString(Constants.KEY_ENCODED_EMAIL, null);
                         spe.putString(Constants.KEY_PROVIDER, null);
-
+                        
                         takeUserToLoginScreenOnUnAuth();
                     }
                 }
@@ -167,7 +167,7 @@ public abstract class BaseActivity extends AppCompatActivity implements
         startActivity(intent);
         finish();
     }
-
+    
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
     }
